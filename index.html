@@ -29,26 +29,25 @@
 
     <section class="cards">
         <ul>
-            <li><img src="https://andreabcm.github.io/Proyecto-final/img/platos/ensalada01.jpg" alt="almuerzo">
-                <h1 id="precio"></h1>
-                <h2 id="titulo"></h2>
-                <p id="descripcion"></p>
+            <li class="card">
+                <img src="https://andreabcm.github.io/Proyecto-final/img/platos/ensalada01.jpg" alt="almuerzo">
+                <h1 id="precio">12 €</h1>
+                <h2 id="titulo">Ensalada Capresse</h2>
+                <p id="descripcion">Con salsa Ranch</p>
                     <button id="more">+</button>
                     <button id="less">-</button>
-        </li>
+            </li>
         </ul>
 
     </section>
 </body>
 <footer>
-    <section class="shoppingCart"><img id="shopCart" src="/IconosPNG/shop.png" alt="shop"></section>
     <nav class="mainMenu">
-            <ul>
-                <li><img src="/IconosPNG/home.png" alt="home" onclick="home"></li>
-                <li><img src="/IconosPNG/cart.png" alt="cart" onclick="cart"></li>
-                <li><img src="/IconosPNG/heart.png" alt="favorite" onclick="favorite"></li>
-                <li><img src="/IconosPNG/profile.png" alt="profile" onclick="profile"></li>
-            </ul>
+        <button><img src="/IconosPNG/home.png" alt="home" onclick="home()"></button>
+        <button><img src="/IconosPNG/cart.png" alt="cart" onclick="cart()"></button>
+        <button><img id="shopCart" src="/IconosPNG/shop.png" alt="shop" onclick="shopNow()"></button>
+        <button><img src="/IconosPNG/heart.png" alt="favorite" onclick="favorite()"></button>
+        <button><img src="/IconosPNG/profile.png" alt="profile" onclick="profile()"></button>
     </nav>
 </footer>
 <script src="index.js"></script>

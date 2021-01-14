@@ -38,15 +38,18 @@ p {
     color: grey;
 }
 
-img {
-}
-
-
-
 footer {
+    background-color: white;
+    filter: drop-shadow(0px -5px 10px #B4B4B4);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+
+}
+
+button {
+    border: none;
+    background-color: white;
 }
 
