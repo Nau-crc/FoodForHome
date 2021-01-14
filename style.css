@@ -1,0 +1,52 @@
+@import '/components/stylish.css';
+
+*{
+    padding: 10px;
+    margin: 0px;
+    marker: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 2;
+   padding: 5px;
+   background-color: white;
+
+}
+
+h1.container, 
+h3.container, 
+p.container {
+    display: grid;
+    grid-column: 1;
+}
+
+#logo {
+    grid-column: 2;
+    width: 20vh;
+    height: 10vh
+
+}
+
+p {
+    color: grey;
+}
+
+img {
+}
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+

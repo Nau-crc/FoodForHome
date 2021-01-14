@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtomicDesign</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Food House</h3>
+        <h1>Food For Home</h1>
+        <p>Lorem ipsum dolor sit amer consectetur</p>
+        <img id="logo" src="https://andreabcm.github.io/Proyecto-final/img/logo.png" alt="logo">
+    </div>
+
+    <nav class="options">
+        <ul class="foodSlider">
+            <li class="mySlides" id="tapas">Tapas</li>
+            <li class="mySlides" id="desayunos">Desayunos</li>
+            <li class="mySlides" id="ensaladas">Ensaladas</li>
+            <li class="mySlides" id="almuerzos">Almuerzos</li>
+            <li class="mySlides" id="cena">Cena</li>
+            <li class="mySlides" id="postres">Postres</li>
+            <li class="mySlides" id="bebidas">Bebidas</li>
+            <li class="mySlides" id="todos">Todos</li>
+        </ul>
+    </nav>
+
+    <section class="cards">
+        <ul>
+            <li><img src="https://andreabcm.github.io/Proyecto-final/img/platos/ensalada01.jpg" alt="almuerzo">
+                <h1 id="precio"></h1>
+                <h2 id="titulo"></h2>
+                <p id="descripcion"></p>
+                    <button id="more">+</button>
+                    <button id="less">-</button>
+        </li>
+        </ul>
+
+    </section>
+</body>
+<footer>
+    <section class="shoppingCart"><img id="shopCart" src="/IconosPNG/shop.png" alt="shop"></section>
+    <nav class="mainMenu">
+            <ul>
+                <li><img src="/IconosPNG/home.png" alt="home" onclick="home"></li>
+                <li><img src="/IconosPNG/cart.png" alt="cart" onclick="cart"></li>
+                <li><img src="/IconosPNG/heart.png" alt="favorite" onclick="favorite"></li>
+                <li><img src="/IconosPNG/profile.png" alt="profile" onclick="profile"></li>
+            </ul>
+    </nav>
+</footer>
+<script src="index.js"></script>
+</html>

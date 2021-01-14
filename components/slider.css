@@ -1,0 +1,81 @@
+.foodSlider {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+ul.foodSlider{
+    position: relative;
+}
+
+ul.foodSlider li{
+
+}
+
+.foodSlider li {
+    position: relative;
+    border: 1px solid transparent;
+    box-shadow: grey;
+}
+
+.foodSlider img {
+    max-width: 8vh;
+}
+
+
+#tapas:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/tapas.svg');
+    width: 20px;
+    height: 40px;
+}
+
+#desayunos:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/breakfast.svg');
+    width: 20px;
+    height: 40px;
+
+}
+
+#ensaladas:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/salad.png');
+    width: 20px;
+    height: 40px;
+
+}
+
+#almuerzos:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/fastfood.svg');
+    width: 20px;
+    height: 40px;
+
+}
+
+#cena:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/dinner.svg');
+    width: 20px;
+    height: 40px;
+
+}
+
+#postres:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/fastfood.svg');
+    width: 20px;
+    height: 40px;
+    
+}
+
+#bebidas:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/bebidas.svg');
+    width: 20px;
+    height: 40px;
+
+}
+
+#todos:before {
+    content: url('https://andreabcm.github.io/Proyecto-final/img/slider/all.svg');
+    width: 20px;
+    height: 40px;
+
+}
