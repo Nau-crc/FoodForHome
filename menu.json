@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "precio":"8€",
+        "titulo":"Ensalada Cesar",
+        "descripcion":"con frutos secos"
+    },
+    {
+        "id": 2,
+        "precio":"",
+        "titulo":"",
+        "descripcion":""
+    },
+    {
+        "id": 3,
+        "precio":"",
+        "titulo":"",
+        "descripcion":""
+    }
+    
+]

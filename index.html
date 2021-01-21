@@ -7,35 +7,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h3>Food House</h3>
-        <h1>Food For Home</h1>
-        <p>Lorem ipsum dolor sit amer consectetur</p>
-        <img id="logo" src="https://andreabcm.github.io/Proyecto-final/img/logo.png" alt="logo">
-    </div>
+    <header>
+        <div class="infoContainer">
+            <h1>Food For Home</h1>
+            <p>Lorem ipsum dolor sit amer consectetur</p>
+        </div>
+        <div class="logo">
+            <img id="logo" src="https://andreabcm.github.io/Proyecto-final/img/logo.png" alt="logo">
+        </div>
+    </header>
 
     <nav class="options">
         <ul class="foodSlider">
-            <li class="mySlides" id="tapas">Tapas</li>
-            <li class="mySlides" id="desayunos">Desayunos</li>
-            <li class="mySlides" id="ensaladas">Ensaladas</li>
-            <li class="mySlides" id="almuerzos">Almuerzos</li>
-            <li class="mySlides" id="cena">Cena</li>
-            <li class="mySlides" id="postres">Postres</li>
-            <li class="mySlides" id="bebidas">Bebidas</li>
-            <li class="mySlides" id="todos">Todos</li>
+            <li class="foodSlides" id="tapas"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/tapas.svg" alt="tapas"> 
+                <p> Tapas</p>
+            </li>
+            <li class="foodSlides" id="desayunos"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/breakfast.svg" alt="desayunos">
+                <p> Desayunos</p>
+            </li>
+            <li class="foodSlides" id="ensaladas"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/salad.png" alt="ensaladas">
+                <p> Ensaladas</p>
+            </li>
+            <li class="foodSlides" id="almuerzos"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/fastfood.svg" alt=""> 
+                <p>Almuerzos</p>
+            </li>
+            <li class="foodSlides" id="cena"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/dinner.svg" alt="cena"> 
+                <p>Cena</p>
+            </li>
+            <li class="foodSlides" id="postres"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/fastfood.svg" alt="postres"> 
+                <p>Postres</p>
+            </li>
+            <li class="foodSlides" id="bebidas"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/bebidas.svg" alt="bebidas"> 
+                <p>Bebidas</p>
+            </li>
+            <li class="foodSlides" id="todos"> <img src="https://andreabcm.github.io/Proyecto-final/img/slider/all.svg" alt="todos">
+                <p>Todos</p>
+            </li>
         </ul>
     </nav>
 
-    <section class="cards">
-        <ul>
+    <section >
+        <ul class="cards">
             <li class="card">
                 <img src="https://andreabcm.github.io/Proyecto-final/img/platos/ensalada01.jpg" alt="almuerzo">
-                <h1 id="precio">12 €</h1>
-                <h2 id="titulo">Ensalada Capresse</h2>
-                <p id="descripcion">Con salsa Ranch</p>
+                <div class="infoCard">
+                    <h1 id="precio">12 €</h1>
+                    <h2 id="titulo">Ensalada Capresse</h2><br>
+                    <p id="descripcion">Con salsa Ranch</p><br>
+                </div>
+                <div class="addRemove">
                     <button id="more">+</button>
+                    <p class="manyItems">0</p>
                     <button id="less">-</button>
+                </div>
+            </li>
+            </li>
+            <li class="card">
+                <img src="https://andreabcm.github.io/Proyecto-final/img/platos/desayuno01.jpg" alt="desayuno">
+                <div class="infoCard">
+                    <h1 id="precio">15 €</h1>
+                    <h2 id="titulo">Desayuno de la Casa</h2>
+                    <p id="descripcion">Huevos, pancakes y tocino</p>
+                </div>
+                <div class="addRemove">
+                    <button id="more">+</button>
+                    <p class="manyItems">0</p>
+                    <button id="less">-</button>
+                </div>
+            </li>
+            <li class="card">
+                <img src="https://andreabcm.github.io/Proyecto-final/img/platos/Hamburguesa.jpg" alt="almuerzo">
+                <div class="infoCard">
+                    <h1 id="precio">9 €</h1>
+                    <h2 id="titulo">Hamburguesa Clásica</h2>
+                    <p id="descripcion">Con queso cheddar</p>
+                </div>
+                <div class="addRemove">
+                    <button id="more">+</button>
+                    <p class="manyItems">0</p>
+                    <button id="less">-</button>
+                </div>
             </li>
         </ul>
 
@@ -43,11 +94,11 @@
 </body>
 <footer>
     <nav class="mainMenu">
-        <button><img src="/IconosPNG/home.png" alt="home" onclick="home()"></button>
-        <button><img src="/IconosPNG/cart.png" alt="cart" onclick="cart()"></button>
-        <button><img id="shopCart" src="/IconosPNG/shop.png" alt="shop" onclick="shopNow()"></button>
-        <button><img src="/IconosPNG/heart.png" alt="favorite" onclick="favorite()"></button>
-        <button><img src="/IconosPNG/profile.png" alt="profile" onclick="profile()"></button>
+        <button><img src="https://andreabcm.github.io/Proyecto-final/img/footer/home.svg" alt="home" onclick="home()"></button>
+        <button><img src="https://andreabcm.github.io/Proyecto-final/img/footer/bolsalike.svg" alt="cart" onclick="cart()"></button>
+        <button id="shopCart"><img class="imgShopCart"  src="https://andreabcm.github.io/Proyecto-final/img/footer/bolsa.svg" alt="shop" onclick="shopNow()"></button>
+        <button><img src="https://andreabcm.github.io/Proyecto-final/img/footer/corazon.svg" alt="favorite" onclick="favorite()"></button>
+        <button><img src="https://andreabcm.github.io/Proyecto-final/img/footer/usuario.svg" alt="profile" onclick="profile()"></button>
     </nav>
 </footer>
 <script src="index.js"></script>

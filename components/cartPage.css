@@ -1,0 +1,36 @@
+.price {
+    background-color:  #FF6900;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh;
+    border-radius: 30px 30px 0px 0px;
+    height: 20vh;
+    
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+header {
+    padding: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.back {
+    height: 7vw;
+    width: 7vw;
+    border: none;
+    background-color: #e6e4e5;
+    border-radius: 1vh;
+}
+
+.back img {
+    height: 70%;
+    width: auto;
+    padding: 10%;
+}
