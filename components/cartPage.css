@@ -30,7 +30,18 @@ header {
 }
 
 .back img {
+    align-self: center;
     height: 70%;
     width: auto;
     padding: 10%;
+}
+
+.submitShop {
+    width: 290px;
+    height: 15vh;
+    left: 23px;
+    top: 651px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    border: none;
 }
